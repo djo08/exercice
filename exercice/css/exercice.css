@@ -1,0 +1,149 @@
+/* page index */
+
+
+header
+{
+  background-image: url(../photos/Header.png);
+  background-repeat:no-repeat;
+  background-size: 100%;
+  background-position: 0 70%;
+  width: 100%;
+  height: 200px;
+}
+header h1
+{
+  color: white;
+  font-size: 50px;
+  margin-top: 50px;
+  margin-left: 30px;
+  position:absolute;
+}
+
+label {
+  margin-bottom: 23px;
+  margin-right: 10px;
+}
+
+#form1
+{
+  text-align: center;
+  width: 100%;
+display: flex;
+justify-content:center;
+
+}
+#moyenbloc {
+  display: flex;
+}
+#grosbloc
+{
+margin-top: 10%;
+}
+#labels
+{
+  display: flex;
+  flex-direction: column;
+
+}
+
+#type
+{
+display: flex;
+flex-direction: column;
+}
+
+#bouton
+{
+display: flex;
+justify-content: space-around;
+margin-bottom: 15px;
+}
+input[name="prenom"] {
+  margin-bottom: 10px;
+}
+
+input[name="nom"] {
+  margin-bottom: 10px;
+}
+#bloc1
+{
+  margin: 0;
+  padding: 0;
+display: flex;
+flex-direction: column;
+text-align: right;
+}
+
+
+#souvenir
+{
+  width: 100%;
+  text-align:left;
+  margin-left: 20px;
+}
+
+#envoyer
+{
+text-align: right;
+}
+
+.red
+{
+color: red;
+}
+
+
+/* page traitement */
+#prefix
+{
+display: flex;
+flex-direction: column;
+float: left;
+}
+
+
+#sufix
+{
+  display: flex;
+  flex-direction: column;
+float: left;
+}
+
+#fixcontour
+{
+  display: block;
+  text-align: center;
+}
+
+#contourfixe
+{
+  display: flex;
+  text-align: center;
+
+}
+
+#megabloc
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+margin-top: 10%;
+
+}
+#demande
+{
+  display: inline-block;
+  margin-top: 30px;
+
+}
+
+#blocbas
+{
+  display: inline-block;
+  margin-top: 30px;
+}
+p {
+  margin-top: 30px;
+}
